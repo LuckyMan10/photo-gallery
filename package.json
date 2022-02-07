@@ -1,0 +1,20 @@
+{
+  "name": "learn-modules-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "prod": "node backend/dist/main",
+    "start-client": "cd frontend && npm run dev",
+    "start-server": "cd backend && npm run dev"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
